@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.heading {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  border-top: 1px solid black;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main main main "
+    "footer footer footer footer footer footer";
+}
+.item1 {
+  grid-area: header;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+}
+.item2 {
+  grid-area: menu;
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  margin-top: 100%;
+  
+}
+.item3 {
+  grid-area: main;
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+}
+.item4 {
+  grid-area: right;
+  font-family: "Roboto", sans-serif;
+}
+.item5 {
+  grid-area: footer;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
